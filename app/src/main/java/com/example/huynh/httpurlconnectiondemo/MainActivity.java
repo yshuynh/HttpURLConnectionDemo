@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
         ten = findViewById(R.id.ten);
         tuoi = findViewById(R.id.tuoi);
 
-        String jsonUrl = "https://www.dl.dropboxusercontent.com/s/2rc1sz2t6kjrvvi/DemoJson.json?dl=0";
+        String jsonUrl = "https://www.dl.dropboxusercontent.com/s/g5scg7gnopuwpq0/DemoJson.json?dl=0";
 
         // Tạo một đối tượng làm nhiệm vụ download nội dung json từ URL.
         DownloadJSON task = new DownloadJSON(this.textView, this, student, ten, tuoi);
